@@ -4,7 +4,9 @@ class Presets(object):
     CAPTION_TEXT_DOC = "\n\n<b>File Name:</b> {}\n\n<b>Format:</b> {}\n<b>Size:</b> {}"
     CAPTION_TEXT_VID = "\n\n<b>File Name:</b> {}\n\n<b>Size:</b> {}"
     ASK_PM_TEXT = "<b>Click the below button</b>"
-    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>I can help you getting movies from</code> @OB_MoviesGroup. " \
+    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>I can help you getting movies from</code> @OB_MOVIESGROUP. " \
+                   "<code>Just Keep this message live Here</code>😉\n\n" \
+                   "<b>Main Channel: </b><a href='https://t.me/OB_MOVIES'> CLICK HERE</a>"
     CLEAN_CHAT_MSG = "⚠️ <b>Deleting all messages..</b>"
     MSG_FOR_PIN = "<b>For getting medias from here..</b>\n\n🔛 <code>Please start</code> @{} <code>in PM\n\n" \
                   "Send the exact Movie name.\n\n🔊 I'll reply the file in PM if available in our channel !</code>"
