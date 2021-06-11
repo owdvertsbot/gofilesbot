@@ -1,22 +1,22 @@
 # ----------------------------------- https://github.com/m4mallu/gofilesbot ------------------------------------------ #
 
 class Presets(object):
-    CAPTION_TEXT_DOC = "\n\n\ {}\n\n<b>♻️ 𝙅𝙊𝙄𝙉 :- https://t.me/joinchat/Ur8bdKHGNRdBoeHW</b>"
+    CAPTION_TEXT_DOC = "\n\n<b> {}\n\n</b><b>♻️ 𝙅𝙊𝙄𝙉 :- https://t.me/joinchat/Ur8bdKHGNRdBoeHW</b>"
     CAPTION_TEXT_VID = "\n\n<b>File Name:</b> {}\n\n<b>Size:</b> {}"
-    ASK_PM_TEXT = "<b>Click the below button</b>"
-    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>I can help you getting movies from</code> @MovieKeralam. " \
+    ASK_PM_TEXT = "<b>താഴെ ഉള്ള ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക</b>"
+    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>ഞാൻ @OB_MoviesGroup ൽ നിന്ന് മുവീസ് നിങ്ങളിലേക്ക് എത്തിക്കാൻ സഹായിക്കും</code>" \
                    "<code>Just Keep this message live Here</code>😉\n\n" \
-                   "<b>My code can be seen: </b><a href='https://github.com/m4mallu/gofilesbot'> HERE</a>"
-    CLEAN_CHAT_MSG = "⚠️ <b>Deleting all messages..</b>"
-    MSG_FOR_PIN = "<b>For getting medias from here..</b>\n\n🔛 <code>Please start</code> @{} <code>in PM\n\n" \
-                  "Send the exact Movie name.\n\n🔊 I'll reply the file in PM if available in our channel !</code>"
+                   "<b>Main Channel: </b><a href='https://t.me/ob_movies'>OB MOVIES</a>"
+    CLEAN_CHAT_MSG = "⚠️ <b>എല്ലാ മെസ്സേജുകളും ഡിലീറ്റ് ചെയ്യുന്നു..</b>"
+    MSG_FOR_PIN = "<b>ഇവിടുന്ന് മൂവി ഫയലുകൾ കിട്ടാൻ..</b>\n\n🔛 <code>ബോട്ടിൻ്റെ pm ൽ ചെന്ന് start ക്ലിക്ക് ചെയ്ത് ഗ്രൂപ്പിലേക്ക് തിരിച്ച് വന്ന്</code> @{} <code>in PM\n\n" \
+                  "മൂവിയുടെ ശെരിയായ പേര് അയക്കുക\n\n🔊 ഞാൻ ആ മൂവിയുടെ ഫയൽ നിങ്ങൾക്ക് അയക്കുന്നതാണ് എൻ്റെ ചാനലിൽ ലഭ്യമാണെങ്കിൽ !</code>"
 
-    BOT_PM_TEXT = "<b>Sorry.. 😢</b>\n\n<code>Bot won't work in PM, Ask in ma Group. I'll reply the file in PM if " \
-                  "available in our DB !</code>"
-    PM_ERROR = "<b>Unable to send medias</b> ⛔️\n<code>Click the below button\nAsk here for movies later!</code>"
-    MEDIA_SEND_TEXT = "<code>Media dispatched as PM 🥳</code>"
-    NO_MEDIA = "Requested movie: <b>{}</b>\n\n<b>Not available " \
-               "Right Now</b>\n<code>Possible Causes : 🤔\n\n⭕️ Not " \
-               "released yet</code>\n⭕️ <a href='https://www.google.com/search?q={}'> Spelled incorrectly</a>\n" \
-               "<code>⭕️ Unwanted texts in Msgs\n⭕ Asking theatre prints\n⭕ Not in ma Database</code>"
+    BOT_PM_TEXT = "<b>Sorry.. 😢</b>\n\n<code>ബോട്ട് pm ൽ വർക്ക് ചെയ്യില്ല, എൻ്റെ ഗ്രൂപ്പിൽ ചോദിക്കുക. ഞാൻ ആ ഫയലുകൾ Reply ആയി നിങ്ങളുടെ pm ൽ അയക്കുന്നാതാണ്" \
+                  "എൻ്റെ DB യിൽ ലഭ്യമാണെങ്കിൽ!</code>"
+    PM_ERROR = "<b>മൂവി ഫയലുകൾ അയക്കാൻ പറ്റുന്നില്ല</b> ⛔️\n<code>താഴെ ഉള്ള ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക\nഎന്നിട്ട് നിങ്ങൾ ചോദിച്ച മൂവി ഒരു പ്രാവശ്യം കൂടി ചോദിക്കുക!</code>"
+    MEDIA_SEND_TEXT = "<code>മൂവി ഫയലുകൾ നിങ്ങളുടെ pm ൽ അയച്ചിട്ടുണ്ട്</code>"
+    NO_MEDIA = "ചോദിച്ച മൂവി: <b>{}</b>\n\n<b>ഇപ്പോൾ " \
+               "ലഭ്യമല്ല</b>\n<code>സാധ്യതയുള്ള കാരണങ്ങൾ : 🤔\n\n⭕️ റിലീസ് " \
+               "ആയിട്ടില്ല</code>\n⭕️ <a href='https://www.google.com/search?q={}'> Spelling തെറ്റാണ്</a>\n" \
+               "<code>⭕️ Unwanted texts in Msgs\n⭕ തീയേറ്റർ പ്രിൻ്റ് ചോദിച്ചു\n⭕ എൻ്റെ ഡാറ്റാബേസിൽ ഇല്ല</code>"
     BLOCK_LIST = ['http://', 'https://', '@', '#', 'bit.ly', 't.me', '/']
