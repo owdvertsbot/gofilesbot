@@ -4,7 +4,7 @@ class Presets(object):
     CAPTION_TEXT_DOC = "<b>{}\n\n♻️ 𝙅𝙊𝙄𝙉 :- https://t.me/joinchat/Ur8bdKHGNRdBoeHW</b>"
     CAPTION_TEXT_VID = "\n\n<b>File Name:</b> {}\n\n<b>Size:</b> {}"
     ASK_PM_TEXT = "<b>Click the below button</b>"
-    WELCOME_TEXT = "Hello 𝙁𝙄𝙍𝙎𝙏 𝙉𝘼𝙈𝙀 (𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙙)!!
+    WELCOME_TEXT = "Hello {}!!
 ഞാൻ ഒരു ഗ്രൂപ്പ് മാനേജർ ബോട്ട് ആണ് പക്ഷെ വെറുതെ സമയം കളയണ്ട എന്നെ @Ob_moviesgroup ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ"
     CLEAN_CHAT_MSG = "⚠️ <b>Deleting all messages..</b>"
     MSG_FOR_PIN = "<b>For getting medias from here..</b>\n\n🔛 <code>Please start</code> @{} <code>in PM\n\n" \
