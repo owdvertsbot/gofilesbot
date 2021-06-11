@@ -1,10 +1,10 @@
 # ----------------------------------- https://github.com/m4mallu/gofilesbot ------------------------------------------ #
 
 class Presets(object):
-    CAPTION_TEXT_DOC = "\n\n<b> {}\n\n</b><b>♻️ 𝙅𝙊𝙄𝙉 :- https://t.me/joinchat/Ur8bdKHGNRdBoeHW</b>"
+    CAPTION_TEXT_DOC = "\n\n<b> {}</b>\n\n<b>♻️ 𝙅𝙊𝙄𝙉 :- https://t.me/joinchat/Ur8bdKHGNRdBoeHW</b>"
     CAPTION_TEXT_VID = "\n\n<b>File Name:</b> {}\n\n<b>Size:</b> {}"
     ASK_PM_TEXT = "<b>താഴെ ഉള്ള ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക</b>"
-    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>ഞാൻ @OB_MoviesGroup ൽ നിന്ന് മുവീസ് നിങ്ങളിലേക്ക് എത്തിക്കാൻ സഹായിക്കും</code>" \
+    WELCOME_TEXT = "Hello.. <b>{}</b>\n<code>ഞാൻ @OB_MoviesGroup ൽ നിന്ന് മുവീസ് നിങ്ങളിലേക്ക് എത്തിക്കാൻ സഹായിക്കും</code>"\n
                    "<code>Just Keep this message live Here</code>😉\n\n" \
                    "<b>Main Channel: </b><a href='https://t.me/ob_movies'>OB MOVIES</a>"
     CLEAN_CHAT_MSG = "⚠️ <b>എല്ലാ മെസ്സേജുകളും ഡിലീറ്റ് ചെയ്യുന്നു..</b>"
