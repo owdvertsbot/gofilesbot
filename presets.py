@@ -18,4 +18,4 @@ class Presets(object):
                "ലഭ്യമല്ല.</b>\n\n<b>ലഭ്യമല്ലാതത്തിൻ്റെ കാരണങ്ങൾ :👇</b>\n\n<b>◾റിലീസ് " \
                "ആയിട്ടില്ല</b>\n<b><a href='https://www.google.com/search?q={}'>◾Spelling തെറ്റാണ്</a></b>\n" \
                "<b>◾ Unwanted texts in Msgs</b>"
-    BLOCK_LIST = ['http://', 'https://', 'Jagame', 'Jagame Thandhiram', 'Cold Case', 'loki', '@', '#', 'bit.ly', 't.me', '/']
+    BLOCK_LIST = ['http://', 'https://', 'Jagame', 'jagame', 'cold case', 'malik', 'anugraheethan', 'Anugraheethan', 'Chathur', 'Saras', 'saras', 'Collar bomb', 'Collar Bomb', 'collar bomb','Jagame Thandhiram', 'Cold Case', 'Black widow', 'Black Widow', 'black widow', 'chathur', 'loki', '@', '#', 'bit.ly', 't.me', '/']
